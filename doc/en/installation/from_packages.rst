@@ -108,6 +108,8 @@ PHP timezone should be set; go to /etc/php.d directory and create a file named p
 
     date.timezone = Europe/Paris
 
+Or uncomment in the /etc/php.ini file "date.timezone" and add the above line.
+
 After saving the file, please don't forget to restart apache server.
 
 Firewall
